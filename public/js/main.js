@@ -122,7 +122,7 @@ var runAndCheckStuff = function() {
 		
 		if (goodShotArray[j].centreX >= boss.xPos - boss.diameter/2 && goodShotArray[j].centreX <= boss.xPos + boss.diameter/2 && goodShotArray[j].centreY <= boss.yPos + boss.diameter/2 && goodShotArray[j].centreY >= boss.yPos - boss.diameter/2){
 			boss.gotHit();
-			console.log(boss.life);
+			//console.log(boss.life);
 			score.add();
 		}
 	}
