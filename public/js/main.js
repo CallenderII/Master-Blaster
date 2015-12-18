@@ -42,7 +42,7 @@ function draw() {
 		badShotArray[i].run();
 		if (badShotArray[i].centreX >= goodGuy.centreX - goodGuy.diameter/2 && badShotArray[i].centreX <= goodGuy.centreX + goodGuy.diameter/2 && badShotArray[i].centreY <= goodGuy.centreY + goodGuy.diameter/2 && badShotArray[i].centreY >= goodGuy.centreY - goodGuy.diameter/2 ) {
 			goodGuy.gotHit();
-			console.log(goodGuy.life);
+			//console.log(goodGuy.life);
 		}
 	}
 
